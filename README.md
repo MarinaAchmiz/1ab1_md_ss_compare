@@ -3,4 +3,4 @@ This repository contains input files, scripts, and results for simulating the sm
 1)With disulfide bonds - 1AB1_ss
 2)Without disulfide bonds - 1AB1_noss
 
-md.sh (in 1AB1_ss and  1AB1_noss) — Bash script to run MD for both cases (interactive prompt: Y/N for disulfide)
+Each folder (`1AB1_ss/` and `1AB1_noss/`) contains the same Bash script `md.sh`, which interactively asks whether to include disulfide bonds or not when running the simulation.
