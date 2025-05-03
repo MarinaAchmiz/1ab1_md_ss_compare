@@ -7,7 +7,6 @@ gmx editconf -f proteins_processed.gro -o proteins_newbox.gro -c -d 1.0 -bt octa
 gmx solvate -cp proteins_newbox.gro -cs spc216.gro -o proteins_solv.gro -p topol.top
 touch ions.mdp
 gmx grompp -f ions.mdp -c proteins_solv.gro -p topol.top -o ions.tpr
-
 printf "SOL\n" | gmx genion -s ions.tpr -o proteins_solv.gro -conc 0.15 -p \
 topol.top -pname NA -nname CL -neutral
 gmx grompp -f input/emin-charmm.mdp -c proteins_solv.gro -p topol.top -o em.tpr
