@@ -1,0 +1,63 @@
+# This file was created Sat May  3 16:44:48 2025
+# Created by:
+#                       :-) GROMACS - gmx rmsf, 2024.2 (-:
+# 
+# Executable:   /usr/local/gromacs/bin/gmx
+# Data prefix:  /usr/local/gromacs
+# Working dir:  /home/marina/testtask/testtask_noss_1_AFTERMD/testtask_noss_1
+# Command line:
+#   gmx rmsf -f 1ab1_outputall_center_noss1.xtc -s md.tpr -o rmsf_noss1_res.xvg -res
+# gmx rmsf is part of G R O M A C S:
+#
+# Giant Rising Ordinary Mutants for A Clerical Setup
+#
+@    title "RMS fluctuation"
+@    xaxis  label "Residue"
+@    yaxis  label "(nm)"
+@TYPE xy
+    1   0.1482
+    2   0.1087
+    3   0.1087
+    4   0.0618
+    5   0.0770
+    6   0.0783
+    7   0.1406
+    8   0.1060
+    9   0.0600
+   10   0.0730
+   11   0.0848
+   12   0.0856
+   13   0.0849
+   14   0.0873
+   15   0.0940
+   16   0.0903
+   17   0.1104
+   18   0.1277
+   19   0.1113
+   20   0.1119
+   21   0.0935
+   22   0.1042
+   23   0.1228
+   24   0.0750
+   25   0.1136
+   26   0.0761
+   27   0.0620
+   28   0.0940
+   29   0.2049
+   30   0.0756
+   31   0.0870
+   32   0.0690
+   33   0.1364
+   34   0.1438
+   35   0.1535
+   36   0.1900
+   37   0.1651
+   38   0.2267
+   39   0.2252
+   40   0.1957
+   41   0.1647
+   42   0.2097
+   43   0.2445
+   44   0.1787
+   45   0.1377
+   46   0.1242
